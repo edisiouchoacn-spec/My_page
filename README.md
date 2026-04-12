@@ -20,7 +20,7 @@ Reflexões de Aprendizado
 
 # Principais aprendizados
 
-    Entendi o que é um componente React — uma função JavaScript que retorna JSX (uma interface visual).
+    Entendi o que é um componente React, uma função JavaScript que retorna JSX (uma interface visual).
     Aprendi a diferença entre SPA e MPA e como o React Router permite criar uma MPA dentro de um projeto React.
     Compreendi o papel do npm como gerenciador de pacotes e o que significa instalar dependências.
     Aprendi a usar CSS inline em React e como propriedades como display: flex, position: absolute e borderRadius afetam o layout.
@@ -31,7 +31,7 @@ Reflexões de Aprendizado
 # Uso de IA
     Utilizei o Claude (Anthropic) como assistente durante todo o desenvolvimento desta atividade. Como era minha primeira vez tocando em React, Vite e no ecossistema JavaScript moderno, a IA foi essencial para:
 
-    Explicar conceitos do zero: Sempre que eu não entendia algo — como o que é JSX, o que é export default, ou por que o node_modules é tão grande — eu perguntava e recebia explicações claras e contextualizadas.
+    Explicar conceitos do zero: Sempre que eu não entendia algo, como o que é JSX, o que é export default, ou por que o node_modules é tão grande,eu perguntava e recebia explicações claras e contextualizadas.
     Depurar erros em tempo real: Vários erros apareceram ao longo do desenvolvimento (scripts bloqueados no PowerShell, tags JSX mal fechadas, nomes de funções inconsistentes, etc.). A IA identificava o problema a partir do print ou da mensagem de erro e explicava a causa.
     Conduzir no ritmo certo: Ao invés de receber tudo pronto de uma vez, solicitei que a IA me guiasse passo a passo, explicando o porquê de cada ação. Isso foi fundamental para o aprendizado real.
     Gerar e ajustar conteúdo: Os textos de apresentação pessoal, trajetória acadêmica e descrições dos projetos foram elaborados em conjunto com a IA a partir das minhas informações pessoais.
