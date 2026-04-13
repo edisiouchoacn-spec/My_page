@@ -9,9 +9,7 @@ function Home() {
       
       <div style={{ maxWidth: '800px', padding: '40px', margin: '0'}}>
 
-
-
-      <img src="/foto.jpg" alt="Edisio Uchôa" style={{ 
+      <img src="foto.jpg" alt="Edisio Uchôa" style={{ 
         width: '400px', 
         borderRadius: '25px', 
         transform: 'rotate(90deg)',
@@ -19,7 +17,6 @@ function Home() {
         right: '100px',
         top: '200px'
       }} />
-
 
         <h1>Edisio Uchôa Cavalcanti Neto</h1>
         <h3>Student of SISTEMAS DE INFORMAÇÃO, At CIN/ufpe.</h3>

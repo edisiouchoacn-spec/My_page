@@ -11,7 +11,7 @@ function Portfolio() {
         {/* Stayfe */}
         <div style={{ marginTop: '60px' }}>
           <h1 style={{ fontSize: '64px', marginBottom: '8px' }}>Stayfe</h1>
-          <p style={{ color: '#aaaaaa' }}>Discipline: Design Systems (CAD)</p>
+          <p style={{ color: '#aaaaaa' }}>Discipline: Design Systems (DS)</p>
 
           <p style={{ marginTop: '16px' }}>
             Stayfe is an urban safety platform that connects citizens through an interactive map, 
@@ -29,15 +29,15 @@ function Portfolio() {
           </p>
 
           <div style={{ display: 'flex', gap: '16px', marginTop: '24px' }}>
-            <img src="/Stayfelogin.png" alt="Stayfe Login" style={{ width: '48%', borderRadius: '8px' }} />
-            <img src="/Stayfeapp.png" alt="Stayfe Map" style={{ width: '48%', borderRadius: '8px' }} />
+            <img src="Stayfelogin.png" alt="Stayfe Login" style={{ width: '48%', borderRadius: '8px' }} />
+            <img src="Stayfeapp.png" alt="Stayfe Map" style={{ width: '48%', borderRadius: '8px' }} />
           </div>
         </div>
 
         {/* Cadus */}
         <div style={{ marginTop: '80px' }}>
           <h1 style={{ fontSize: '64px', marginBottom: '8px' }}>Cadus</h1>
-          <p style={{ color: '#aaaaaa' }}>Discipline: Software Development (DS)</p>
+          <p style={{ color: '#aaaaaa' }}>Discipline: Computer-Aided Design (CAD)</p>
 
           <p style={{ marginTop: '16px' }}>
             Cadus is a patient self-registration platform that allows users to fill in their 
@@ -55,8 +55,8 @@ function Portfolio() {
           </p>
 
           <div style={{ display: 'flex', gap: '16px', marginTop: '24px' }}>
-            <img src="/Cadushome.png" alt="Cadus Home" style={{ width: '48%', borderRadius: '8px' }} />
-            <img src="/Cadussign.png" alt="Cadus Sign" style={{ width: '48%', borderRadius: '8px' }} />
+            <img src="Cadushome.png" alt="Cadus Home" style={{ width: '48%', borderRadius: '8px' }} />
+            <img src="Cadussign.png" alt="Cadus Sign" style={{ width: '48%', borderRadius: '8px' }} />
           </div>
         </div>
 
