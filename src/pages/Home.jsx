@@ -2,59 +2,35 @@ function Home() {
 
   return (
 
-    <div style={{ display: 'flex', minHeight: '100vh'}}>
+    <div style={{ display: 'flex', minHeight: '100vh', alignItems: 'center', justifyContent: 'center', padding: '0 80px' }}>
 
-      <div style={{ width: '10px', backgroundColor: '#e05555'}}></div>
+      <div style={{ width: '100%', maxWidth: '900px' }}>
 
-      <div style={{ maxWidth: '800px', padding: '40px', margin: '0'}}>
+        <h1 style={{ fontSize: '56px', fontWeight: 900, color: '#1a1a1a', marginBottom: '10px' }}>
+          Uchôa, Edisio
+        </h1>
 
-        <img src="/~eucn/foto.jpg" alt="Edisio Uchôa" style={{ 
-          width: '400px', 
-          borderRadius: '25px', 
-          transform: 'rotate(90deg)',
-          position: 'absolute',
-          right: '100px',
-          top: '200px'
-        }} />
-
-        <h1>Edisio Uchôa Cavalcanti Neto</h1>
-        <h3>Student of SISTEMAS DE INFORMAÇÃO, At CIN/ufpe.</h3>
-
-        <h2>About me:</h2>
-        <p>
-          I'm a Systems of Information student at CIn/UFPE, where I joined in the second semester of 2025 through SISU. 
-          Before that, I spent six months studying Odontology at UPE — but I found my true path in Computing, 
-          an area I've been passionate about long before university, when I was building games in Unity and 
-          casually learning Python on my own.
+        <p style={{ fontSize: '13px', letterSpacing: '2px', color: '#aaaaaa', marginBottom: '44px' }}>
+          CIn · UFPE · Sistemas de Informação
         </p>
 
-        <p>
-          During high school, I also participated in academic olympiads, earning honorable mentions 
-          in the Canguru Mathematics Olympiad, three consecutive medals in the Brazilian Astronomy 
-          Olympiad (OBA), and also competing in the Brazilian Robotics Olympiad (OBR).
+        <p style={{ fontSize: '17px', lineHeight: '2', marginBottom: '52px' }}>
+          I'm someone who genuinely loves learning — not just the outcome, but the process itself. 
+          As a student at CIn/UFPE, I'm constantly exploring the intersections between technology, 
+          economics, and real-world problem solving. I'm drawn to ideas that challenge the status quo 
+          and to building things that actually matter. Outside of code, you'll find me studying market 
+          dynamics or thinking three moves ahead on a chessboard.
         </p>
 
-        <p>
-          I am currently linked to the discipline of Design Systems (DS) at CIn/UFPE. 
-          My academic and professional interests lie in Data Science, Artificial Intelligence, 
-          and other emerging areas of technology.
-          I also aim to join Citi, the Junior Enterprise of CIn/UFPE, as a way to develop practical 
-          experience and contribute to real-world projects during my graduation. 
-          Then, it's not everthing, i also would like to improve social skills (soft skills) there.
-        </p>
+        <div style={{ display: 'flex', gap: '32px', marginBottom: '16px', flexWrap: 'wrap' }}>
+          <a href="mailto:edisiouchoacn@gmail.com" className="home-link">edisiouchoacn@gmail.com</a>
+          <a href="mailto:eucn@cin.ufpe.br" className="home-link">eucn@cin.ufpe.br</a>
+        </div>
 
-        <p>
-          Since joining CIn, I quickly developed a strong affinity with the course, worked on projects, 
-          and participated in academic monitoring activities. My expected graduation is in 2029.
-        </p>
-
-        <h2 style={{ marginTop: '30px'}}>Contacts:</h2>
-        <p>1 - edisiouchoacn@gmail.com</p>
-        <p>2 - eucn@cin.ufpe.br</p>
-
-        <h2 style={{ marginTop: '30px' }}>Links:</h2>
-        <p><a href="https://linkedin.com/in/edisio-uchôa-8469aa380" target="_blank" style={{ color: '#64b5f6' }}>LinkedIn</a></p>
-        <p><a href="https://github.com/edisiouchoacn-spec" target="_blank" style={{ color: '#64b5f6' }}>GitHub</a></p>
+        <div style={{ display: 'flex', gap: '32px', marginTop: '12px' }}>
+          <a href="https://linkedin.com/in/edisio-uchôa-8469aa380" target="_blank" className="home-link">LinkedIn</a>
+          <a href="https://github.com/edisiouchoacn-spec" target="_blank" className="home-link">GitHub</a>
+        </div>
 
       </div>
 

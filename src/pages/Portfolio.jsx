@@ -2,62 +2,42 @@ function Portfolio() {
 
   return (
 
-    <div style={{ display: 'flex', minHeight: '100vh' }}>
+    <div style={{ display: 'flex', minHeight: '100vh', alignItems: 'center', justifyContent: 'center', padding: '80px' }}>
 
-      <div style={{ width: '10px', backgroundColor: '#e05555' }}></div>
+      <div style={{ width: '100%', maxWidth: '900px' }}>
 
-      <div style={{ maxWidth: '900px', padding: '40px' }}>
+        <h1 style={{ fontSize: '42px', fontWeight: 900, color: '#1a1a1a', marginBottom: '8px' }}>
+          Portfolio
+        </h1>
 
-        <h1>Portfolio</h1>
+        <p style={{ fontSize: '13px', letterSpacing: '2px', color: '#aaaaaa', marginBottom: '72px' }}>
+          Projects developed at CIn · UFPE
+        </p>
 
-        <div style={{ marginTop: '60px' }}>
-          <h1 style={{ fontSize: '64px', marginBottom: '8px' }}>Stayfe</h1>
-          <p style={{ color: '#aaaaaa' }}>Discipline: Design Systems (DS)</p>
+        <div style={{ display: 'flex', gap: '48px', flexWrap: 'wrap' }}>
 
-          <p style={{ marginTop: '16px' }}>
-            Stayfe is an urban safety platform that connects citizens through an interactive map, 
-            allowing users to report incidents, view occurrences in real time, and trigger SOS 
-            alerts in emergency situations.
-          </p>
-
-          <p style={{ marginTop: '8px' }}>
-            <strong>Objective:</strong> Help people navigate urban spaces with more safety and awareness, 
-            giving communities a tool to share and visualize security information collectively.
-          </p>
-
-          <p style={{ marginTop: '8px' }}>
-            <a href="https://stayfe.online" target="_blank" style={{ color: '#64b5f6' }}>Visit Stayfe →</a>
-          </p>
-
-          <div style={{ display: 'flex', gap: '16px', marginTop: '24px' }}>
-            <img src="/~eucn/Stayfelogin.png" alt="Stayfe Login" style={{ width: '48%', borderRadius: '8px' }} />
-            <img src="/~eucn/Stayfeapp.png" alt="Stayfe Map" style={{ width: '48%', borderRadius: '8px' }} />
+          <div style={{ flex: '1 1 380px' }}>
+            <img src="/~eucn/stayfe-Di1bhtLd.jpg" alt="Stayfe" style={{ width: '100%', borderRadius: '12px', marginBottom: '24px' }} />
+            <h2 style={{ fontSize: '28px', marginBottom: '8px' }}>Stayfe</h2>
+            <p style={{ fontSize: '13px', letterSpacing: '2px', color: '#aaaaaa', marginBottom: '16px' }}>Concepção de Artefatos Digitais · CAD</p>
+            <p style={{ fontSize: '15px', lineHeight: '1.9', marginBottom: '16px' }}>
+              An urban safety platform that lets citizens report incidents on an interactive map 
+              and trigger SOS alerts in emergency situations.
+            </p>
+            <a href="https://stayfe.online" target="_blank" className="home-link">Visit Stayfe →</a>
           </div>
-        </div>
 
-        <div style={{ marginTop: '80px' }}>
-          <h1 style={{ fontSize: '64px', marginBottom: '8px' }}>Cadus</h1>
-          <p style={{ color: '#aaaaaa' }}>Discipline: Computer-Aided Design (CAD)</p>
-
-          <p style={{ marginTop: '16px' }}>
-            Cadus is a patient self-registration platform that allows users to fill in their 
-            medical information from their phone before arriving at the clinic — saving time 
-            and making the check-in process smoother for both patients and professionals.
-          </p>
-
-          <p style={{ marginTop: '8px' }}>
-            <strong>Objective:</strong> Simplify and digitize the patient registration process, 
-            reducing bureaucracy at clinics and ensuring data is ready before the appointment.
-          </p>
-
-          <p style={{ marginTop: '8px' }}>
-            <a href="https://cadus-facil-login.lovable.app/" target="_blank" style={{ color: '#64b5f6' }}>Visit Cadus →</a>
-          </p>
-
-          <div style={{ display: 'flex', gap: '16px', marginTop: '24px' }}>
-            <img src="/~eucn/Cadushome.png" alt="Cadus Home" style={{ width: '48%', borderRadius: '8px' }} />
-            <img src="/~eucn/Cadussign.png" alt="Cadus Sign" style={{ width: '48%', borderRadius: '8px' }} />
+          <div style={{ flex: '1 1 380px' }}>
+            <img src="/~eucn/cadus-Cc0m_Sje.png" alt="Cadus" style={{ width: '100%', borderRadius: '12px', marginBottom: '24px' }} />
+            <h2 style={{ fontSize: '28px', marginBottom: '8px' }}>Cadus</h2>
+            <p style={{ fontSize: '13px', letterSpacing: '2px', color: '#aaaaaa', marginBottom: '16px' }}> Desenvolvimento de Software · DeS</p>
+            <p style={{ fontSize: '15px', lineHeight: '1.9', marginBottom: '16px' }}>
+              A patient self-registration platform that lets users fill in their medical data 
+              from their phone before arriving at the clinic.
+            </p>
+            <a href="https://cadus-facil-login.lovable.app/" target="_blank" className="home-link">Visit Cadus →</a>
           </div>
+
         </div>
 
       </div>
