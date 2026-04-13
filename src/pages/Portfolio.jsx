@@ -1,5 +1,7 @@
 function Portfolio() {
+
   return (
+
     <div style={{ display: 'flex', minHeight: '100vh' }}>
 
       <div style={{ width: '10px', backgroundColor: '#e05555' }}></div>
@@ -8,7 +10,6 @@ function Portfolio() {
 
         <h1>Portfolio</h1>
 
-        {/* Stayfe */}
         <div style={{ marginTop: '60px' }}>
           <h1 style={{ fontSize: '64px', marginBottom: '8px' }}>Stayfe</h1>
           <p style={{ color: '#aaaaaa' }}>Discipline: Design Systems (DS)</p>
@@ -29,12 +30,11 @@ function Portfolio() {
           </p>
 
           <div style={{ display: 'flex', gap: '16px', marginTop: '24px' }}>
-            <img src="Stayfelogin.png" alt="Stayfe Login" style={{ width: '48%', borderRadius: '8px' }} />
-            <img src="Stayfeapp.png" alt="Stayfe Map" style={{ width: '48%', borderRadius: '8px' }} />
+            <img src="/~eucn/Stayfelogin.png" alt="Stayfe Login" style={{ width: '48%', borderRadius: '8px' }} />
+            <img src="/~eucn/Stayfeapp.png" alt="Stayfe Map" style={{ width: '48%', borderRadius: '8px' }} />
           </div>
         </div>
 
-        {/* Cadus */}
         <div style={{ marginTop: '80px' }}>
           <h1 style={{ fontSize: '64px', marginBottom: '8px' }}>Cadus</h1>
           <p style={{ color: '#aaaaaa' }}>Discipline: Computer-Aided Design (CAD)</p>
@@ -55,12 +55,13 @@ function Portfolio() {
           </p>
 
           <div style={{ display: 'flex', gap: '16px', marginTop: '24px' }}>
-            <img src="Cadushome.png" alt="Cadus Home" style={{ width: '48%', borderRadius: '8px' }} />
-            <img src="Cadussign.png" alt="Cadus Sign" style={{ width: '48%', borderRadius: '8px' }} />
+            <img src="/~eucn/Cadushome.png" alt="Cadus Home" style={{ width: '48%', borderRadius: '8px' }} />
+            <img src="/~eucn/Cadussign.png" alt="Cadus Sign" style={{ width: '48%', borderRadius: '8px' }} />
           </div>
         </div>
 
       </div>
+
     </div>
   )
 }

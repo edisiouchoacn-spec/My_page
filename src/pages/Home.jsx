@@ -2,21 +2,20 @@ function Home() {
 
   return (
 
-    <div style={{ display: 'flex', minHeight: '100h'}}>
+    <div style={{ display: 'flex', minHeight: '100vh'}}>
 
       <div style={{ width: '10px', backgroundColor: '#e05555'}}></div>
 
-      
       <div style={{ maxWidth: '800px', padding: '40px', margin: '0'}}>
 
-      <img src="foto.jpg" alt="Edisio Uchôa" style={{ 
-        width: '400px', 
-        borderRadius: '25px', 
-        transform: 'rotate(90deg)',
-        position: 'absolute',
-        right: '100px',
-        top: '200px'
-      }} />
+        <img src="/~eucn/foto.jpg" alt="Edisio Uchôa" style={{ 
+          width: '400px', 
+          borderRadius: '25px', 
+          transform: 'rotate(90deg)',
+          position: 'absolute',
+          right: '100px',
+          top: '200px'
+        }} />
 
         <h1>Edisio Uchôa Cavalcanti Neto</h1>
         <h3>Student of SISTEMAS DE INFORMAÇÃO, At CIN/ufpe.</h3>
