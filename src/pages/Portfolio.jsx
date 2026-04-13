@@ -17,7 +17,7 @@ function Portfolio() {
         <div style={{ display: 'flex', gap: '48px', flexWrap: 'wrap' }}>
 
           <div style={{ flex: '1 1 380px' }}>
-            <img src="/~eucn/stayfe-Di1bhtLd.jpg" alt="Stayfe" style={{ width: '100%', borderRadius: '12px', marginBottom: '24px' }} />
+            <img src="/~eucn/stayfe.jpg" alt="Stayfe" style={{ width: '100%', borderRadius: '12px', marginBottom: '24px' }} />
             <h2 style={{ fontSize: '28px', marginBottom: '8px' }}>Stayfe</h2>
             <p style={{ fontSize: '13px', letterSpacing: '2px', color: '#aaaaaa', marginBottom: '16px' }}>Concepção de Artefatos Digitais · CAD</p>
             <p style={{ fontSize: '15px', lineHeight: '1.9', marginBottom: '16px' }}>
@@ -28,7 +28,7 @@ function Portfolio() {
           </div>
 
           <div style={{ flex: '1 1 380px' }}>
-            <img src="/~eucn/cadus-Cc0m_Sje.png" alt="Cadus" style={{ width: '100%', borderRadius: '12px', marginBottom: '24px' }} />
+            <img src="/~eucn/cadus.png" alt="Cadus" style={{ width: '100%', borderRadius: '12px', marginBottom: '24px' }} />
             <h2 style={{ fontSize: '28px', marginBottom: '8px' }}>Cadus</h2>
             <p style={{ fontSize: '13px', letterSpacing: '2px', color: '#aaaaaa', marginBottom: '16px' }}> Desenvolvimento de Software · DeS</p>
             <p style={{ fontSize: '15px', lineHeight: '1.9', marginBottom: '16px' }}>
